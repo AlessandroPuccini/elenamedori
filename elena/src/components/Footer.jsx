@@ -3,7 +3,9 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-      <h1>Footer</h1>
+      <h4>elenamedori.design@gmail.com</h4>
+      <h4>+393494708859</h4>
+      <h6>© 2025 Elena Medori</h6>
     </div>
   )
 }
