@@ -7,7 +7,7 @@ import About from './components/About'
 import Commercials from './components/Commercials'
 import Movies from './components/Movies'
 import Stills from './components/Stills'
-import './App.css'
+
 
 function App() {
 
