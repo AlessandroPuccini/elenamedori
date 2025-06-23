@@ -16,7 +16,7 @@ function NavBar() {
     <nav className='sticky-navbar'>
       <div className='logo-name'>
         <Link to="/">
-          <h2>ELENA MEDORI</h2>
+          <h1>ELENA MEDORI</h1>
         </Link></div>
         <div className='menu-items'>  
       <ul>
