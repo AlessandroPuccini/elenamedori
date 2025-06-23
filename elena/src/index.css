@@ -4,7 +4,8 @@
   font-weight: 300;
   /* color-scheme: light dark; */
   color: rgba(255, 255, 255, 0.87);
-  background-color: #f0b9c4;
+  /* background-color: #f0b9c4; */
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -110,8 +111,12 @@ button:focus-visible {
 }
 .logo-name{
   padding-left: 1em;
+  color: #b93a3a;
 }
 
+                     /************MAIN CONTENT**********/  
+
+/****HOME PAGE****/
 
 
 
