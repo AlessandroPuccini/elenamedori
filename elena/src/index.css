@@ -81,7 +81,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5em 1em;
+  /* padding: 0.5em 1em; */
   position: sticky;
   top: 0;
   width: 100%;
@@ -108,7 +108,9 @@ button:focus-visible {
   padding: 0.7em;
   color: #1a1a1a;
 }
-
+.logo-name{
+  padding-left: 1em;
+}
 
 
 

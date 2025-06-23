@@ -17,11 +17,11 @@ function App() {
       <Navbar />
       <main>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/commercials" element={<Commercials />} />
-        <Route path="/movies" element={<Movies />} />
-        <Route path="/stills" element={<Stills />} />
+        <Route path="/elenamedori/" element={<Home />} />
+        <Route path="/elenamedori/about" element={<About />} />
+        <Route path="/elenamedori/commercials" element={<Commercials />}/>
+        <Route path="/elenamedori/movies" element={<Movies />} />
+        <Route path="/elenamedori/stills" element={<Stills />} />
         </Routes>
         </main>
       <Footer />
