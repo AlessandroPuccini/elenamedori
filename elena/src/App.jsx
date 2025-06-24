@@ -1,4 +1,7 @@
 import React from 'react'
+import {Cloudinary} from "@cloudinary/url-gen";
+import {AdvancedImage} from '@cloudinary/react';
+import {fill} from "@cloudinary/url-gen/actions/resize";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/NavBar'
 import Footer from './components/Footer'
@@ -31,3 +34,8 @@ function App() {
 }
 
 export default App
+
+
+
+
+
