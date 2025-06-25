@@ -6,11 +6,19 @@ function Home() {
     <div id='home-wrapper'>
     
     <div className='home-content'>  
-      <h2>Welcome to my portfolio</h2>
-      <p>Explore my projects and skills.</p>
+      <h2>Qulacosa di figo qua nei paraggi!</h2>
+      <p>Che dici?</p>
       </div>
       <div className='home-card'>
-        <img className='home-image' src="https://res.cloudinary.com/dmxjn7rsc/image/upload/docs/model.jpg" alt="model" />
+        <video
+            className='home-image'
+            src="https://res.cloudinary.com/dmxjn7rsc/video/upload/v1750858504/docs/gifEm.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        {/* <img className='home-image' src="https://res.cloudinary.com/dmxjn7rsc/image/upload/docs/model.jpg" alt="model" /> */}
       </div>
     
 

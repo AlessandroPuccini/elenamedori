@@ -135,12 +135,13 @@ button:focus-visible {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 2em;
 }
 
 .home-card{
   width: 600px;
   height: 800px;
-  background: #fff;
+  /* background: #fff; */
   /* border-radius: 24px; */
   /* box-shadow: 0 4px 32px rgba(0,0,0,0.12); */
   display: flex;
