@@ -20,7 +20,7 @@ function NavBar() {
         </Link></div>
         <div className='menu-items'>  
       <ul>
-        <li><Link to='/about'>ABOUT</Link></li>
+        <li><Link to='/me'>ME</Link></li>
         <li><Link to='/commercials'>COMMERCIALS</Link></li>
         <li><Link to='/movies'>MOVIES</Link></li>
         <li><Link to='/stills'>STILLS</Link></li>

@@ -3,9 +3,9 @@
   line-height: 1.5;
   font-weight: 300;
   /* color-scheme: light dark; */
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(0, 0, 0, 0.87);
   /* background-color: #f0b9c4; */
-  background-color: #f7b5b5;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -91,7 +91,7 @@ button:focus-visible {
 }
 
  .sticky-navbar a {
-  color: #b93a3a;
+  color: #f13824;
  }
  .sticky-navbar a:hover{
   color: #535bf2;
@@ -111,7 +111,7 @@ button:focus-visible {
 }
 .logo-name h1{
   padding-left: 0.5em;
-  color: #b93a3a;
+  color: #f13824;
 }
 .logo-name h1:hover{
   color: #535bf2;
@@ -139,15 +139,29 @@ button:focus-visible {
 }
 
 .home-card{
+  position: relative;
   width: 600px;
   height: 800px;
-  /* background: #fff; */
+  background: #fff;
   /* border-radius: 24px; */
   /* box-shadow: 0 4px 32px rgba(0,0,0,0.12); */
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+.big-title-overlay{
+  position: absolute;
+  top: 5%;
+  left: -60%;
+  transform: none;
+  font-size: 4em;         /* molto grande */
+  color: #f13824;            /* colore testo */
+  text-shadow: 1px 1px 2px #000; 
+  font-family: 'Anton', Arial, Helvetica, sans-serif;
+  text-align: center;
+  pointer-events: none;   /* il testo non blocca i click sull'immagine */
+  z-index: 2;
 }
 
 .home-image{
@@ -157,19 +171,96 @@ button:focus-visible {
   /* border-radius: 16px; */
 }     
 
+/*******GALLEY-ITEMS*********/
+.gallery-movies-wrapper {
+  display: flex;
+ flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  padding: 2em 0;
+}
+
+.item-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+  max-width: 450px;
+  padding: 1em;
+  border-radius: 16px;
+ 
+}
+
+.gallery-item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.osp {
+  max-width: 100%;
+  max-height: 350px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.gallery-caption {
+  margin-top: 1em;
+  text-align: center;
+  color: #f13824;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+}
+
+/******GALLERY CAPTION WRAPPER******/
+/* .gallery-caption-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f13824;
+} */
 
 
+/**************ME PAGE ***********/
+
+.me-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2em;
+
+}
+.me-caption-title {
+  font-size: 1.5em;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1em;
+}
+.me-caption-main{
+  font-size: 1.5em;
+  color: #f13824;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1em;
+  text-align: justify;
+}
 
 
 
 /* *********FOOTER********** */
 #footer {
 width: 100%;
- padding: 1em 0;
- margin-top: auto;
-  background-color: #1a1a1a;
-  display: flex;
-  justify-content: space-evenly;
+padding: 1em 0;
+margin-top: auto;
+background-color: #1a1a1a;
+display: flex;
+justify-content: space-evenly;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
 }
 .contacts{
   padding-bottom: 0;

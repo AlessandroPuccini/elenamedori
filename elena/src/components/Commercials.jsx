@@ -2,9 +2,21 @@ import React from 'react'
 
 function Commercials() {
   return (
-    <div>
+    <>
+    <div className='gallery-commercials-wrapper'>
+      <figure className='item-wrapper'>
+        <div className='gallery-item'>
+          <img >
+          </img>
+        </div>
+        <figcaption className='gallery-caption'>
+
+        </figcaption>
+      </figure>
       
     </div>
+
+    </>
   )
 }
 

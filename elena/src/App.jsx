@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/NavBar'
 import Footer from './components/Footer'
 import Home from './components/Home'
-import About from './components/About'
+import Me from './components/Me'
 import Commercials from './components/Commercials'
 import Movies from './components/Movies'
 import Stills from './components/Stills'
@@ -20,11 +20,11 @@ function App() {
       <Navbar />
       <main>
       <Routes>
-        <Route path="/elenamedori/" element={<Home />} />
-        <Route path="/elenamedori/about" element={<About />} />
-        <Route path="/elenamedori/commercials" element={<Commercials />}/>
-        <Route path="/elenamedori/movies" element={<Movies />} />
-        <Route path="/elenamedori/stills" element={<Stills />} />
+        <Route path="/elenamedori" element={<Home />} />
+        <Route path="/me" element={<Me />} />
+        <Route path="/commercials" element={<Commercials />}/>
+        <Route path="/movies" element={<Movies />} />
+        <Route path="/stills" element={<Stills />} />
         </Routes>
         </main>
       <Footer />
