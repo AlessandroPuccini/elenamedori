@@ -251,6 +251,51 @@ button:focus-visible {
   font-size: 0.7em;
 }
 
+/*******STILLS PAGE*********/
+.gallery-stills-wrapper {
+column-count: 3;
+column-gap: 1vw;
+width: 100vw;
+padding: 1vw;
+}
+.item-wrapper-stills{
+display: inline-block;     /* Importante per columns! */
+  width: 100%;
+  margin: 0 0 1vw 0;        /* Spazio verticale tra le immagini */
+  background: none;
+  box-shadow: none;
+  border-radius: 12px;
+  break-inside: avoid; 
+}
+.rosa{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/**************COMMERCIALS PAGE ***********/
+.gallery-commercials-wrapper {
+  column-count: 2;           /* Numero di colonne su desktop */
+  column-gap: 1vw;           /* Spazio tra le colonne */
+  width: 100vw;
+  padding: 1vw;
+}
+.item-wrapper-commercials {
+  display: inline-block;     /* Importante per columns! */
+  width: 100%;
+  margin: 0 0 1vw 0;        /* Spazio verticale tra le immagini */
+  background: none;
+  box-shadow: none;
+  border-radius: 12px;
+  break-inside: avoid; 
+}
+.commercials{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
 /**************ME PAGE ***********/
 
 .main-me-wrapper{
@@ -286,13 +331,28 @@ button:focus-visible {
 }
 .me-image{
   flex: 1 1 50%;
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: flex-end; */
   max-width: 50vw;
   height: auto;
   min-height: 0;
   overflow: visible;
+}
+.me-image-caption {
+  margin-top: 1em;
+  color: #333;
+  font-size: 1.1em;
+  text-align: center;
+  font-size: 0.8em;
+}
+.me-caption-footer{
+  font-size: 1.1em;
+  color: #f13824;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: justify;
+  padding: 1em;
 }
 .her-image{
   width: 100%;
@@ -300,7 +360,8 @@ button:focus-visible {
   max-height: 70vh;
   object-fit: contain;
   display: block;
-  padding: 3em 3em 0 3em;
+  padding-top: 3em;
+  /* padding: 3em 3em 0 3em; */
 }
 
 

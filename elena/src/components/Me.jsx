@@ -10,7 +10,7 @@ function Me() {
       2010 - current - Ass. production designer <br/> </h5> 
       </div>
 
-<div className='me-caption-main'>
+     <div className='me-caption-main'>
 <p>
   {/* Sono Elena, marchigiana di origine e bolognese di adozione.
 Ho iniziato a lavorare come scenografa per film, spot e videoclips  diversi anni fa, dopo una discreta gavetta e svariate collaborazioni come assistente e decoratrice. Sempre affascinata da nuove sfide, ho intrapreso collaborazioni per la realizzazione di produzioni artistiche in qualità di art director e interior stylist. Mi prendo cura dell’intero processo creativo, adoro sporcarmi le mani, progetto, creo, disfo e ritrasformo. Anche il più piccolo oggetto è un tassello necessario per creare emozioni che ogni lavoro vuole trasmettere.
@@ -22,9 +22,13 @@ I love art in all its forms and beautiful stories. I love colours, sunrise and s
 <br></br>
 </p>
 </div>
+   <div className='me-caption-footer'>
+      <p>This month's movie selection fall on Her, by Spike Jonze. Besides the screenplay (which i've loved) and the astonishing acting performance by Joaquin Phoenix, the colours takes a huge role in the movie, as for it was treated as a protagonist itself, no only underlining the mood of the main actor but reflecting the viewer emotions. Higly recommended!</p>
+   </div>
   </div>
   <div className='me-image'>
     <img className='her-image' src="https://res.cloudinary.com/dmxjn7rsc/image/upload/docs/Her.png" alt="her" />
+    <div className='me-image-caption'>*HER by Spike Jonze - 2013</div>
   </div>
 
 </div> 
