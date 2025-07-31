@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Movies() {
+function Film() {
   return (
     <>
     <div className='gallery-movies-wrapper'>
@@ -116,4 +116,4 @@ function Movies() {
   )
 }
 
-export default Movies
+export default Film

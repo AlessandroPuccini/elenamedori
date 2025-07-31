@@ -22,7 +22,7 @@ function NavBar() {
       <ul>
         <li><Link to='/me'>ME</Link></li>
         <li><Link to='/commercials'>COMMERCIALS</Link></li>
-        <li><Link to='/movies'>MOVIES</Link></li>
+        <li><Link to='/film'>FILM</Link></li>
         <li><Link to='/stills'>STILLS</Link></li>
       </ul>
       </div>
