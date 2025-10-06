@@ -12,25 +12,25 @@ function Commercials() {
         </div>
         <figcaption className='gallery-caption'>
            <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @L'OSPITE Featurefilm</p>
+            <p>Amadori - Ricette pronte Undervilla produtions</p>
           </div>
         </figcaption>
       </figure>
 
-      <figure className='item-wrapper-commercials'>
+            <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/amadori2.png" alt="amadori">
+          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/despar2.png" alt="despar">
           </img>
         </div>
         <figcaption className='gallery-caption'>
            <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @L'OSPITE Featurefilm</p>
+            <p>Despar - Spot Web Undervilla Productions</p>
           </div>
         </figcaption>
       </figure>
 
-      <figure className='item-wrapper-commercials'>
+       <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials'
           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/biorepair3.png" alt="biorepair">
@@ -38,10 +38,11 @@ function Commercials() {
         </div>
         <figcaption className='gallery-caption'>
            <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @L'OSPITE Featurefilm</p>
+            <p>Biorepair - Spot Tv Alternative Group</p>
           </div>
         </figcaption>
       </figure>
+
 
       <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
@@ -51,20 +52,33 @@ function Commercials() {
         </div>
         <figcaption className='gallery-caption'>
            <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @L'OSPITE Featurefilm</p>
+            <p>Biorepair - Spot Tv Alternative Group</p>
           </div>
         </figcaption>
       </figure>
 
-      <figure className='item-wrapper-commercials'>
-        <div className='gallery-item'>
-          <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/biorepair1.png" alt="biorepair">
+        <figure className='item-wrapper-commercials'>
+         <div className='gallery-item'>
+        <img className='commercials'
+          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/photosi.png" alt="photosi">
           </img>
         </div>
         <figcaption className='gallery-caption'>
            <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @L'OSPITE Featurefilm</p>
+            <p>Photosi - Spot Web The Storytellers</p>
+          </div>
+        </figcaption>
+      </figure>
+
+       <figure className='item-wrapper-commercials'>
+        <div className='gallery-item'>
+          <img className='commercials'
+          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/amadori2.png" alt="amadori">
+          </img>
+        </div>
+        <figcaption className='gallery-caption'>
+           <div className='gallery-caption-wrapper'>
+            <p>Amadori - Ricette pronte Undervilla Productions</p>
           </div>
         </figcaption>
       </figure>
@@ -77,25 +91,25 @@ function Commercials() {
         </div>
         <figcaption className='gallery-caption'>
            <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @L'OSPITE Featurefilm</p>
+            <p>Despar - Spot Web Undervilla Productions</p>
           </div>
         </figcaption>
       </figure>
 
-      <figure className='item-wrapper-commercials'>
+       <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/despar2.png" alt="despar">
+          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/biorepair1.png" alt="biorepair">
           </img>
         </div>
         <figcaption className='gallery-caption'>
            <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @L'OSPITE Featurefilm</p>
+            <p>Biorepair - Spot Tv Alternative Group</p>
           </div>
         </figcaption>
       </figure>
 
-      <figure className='item-wrapper-commercials'>
+     <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials'
           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/arredissima.jpg" alt="arredissima">
@@ -103,10 +117,25 @@ function Commercials() {
         </div>
         <figcaption className='gallery-caption'>
            <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @L'OSPITE Featurefilm</p>
+            <p>Arredissima - Spot Tv Undervilla Productions</p>
           </div>
         </figcaption>
       </figure>
+
+         <figure className='item-wrapper-commercials'>
+         <div className='gallery-item'>
+           <img className='commercials'
+          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/photosi2.png" alt="photosi">
+          </img>
+        </div>
+        <figcaption className='gallery-caption'>
+           <div className='gallery-caption-wrapper'>
+            <p>Photosi - Spot Web The Storytellers</p>
+          </div>
+        </figcaption>
+      </figure>
+
+   
       
     </div>
 
@@ -115,3 +144,34 @@ function Commercials() {
 }
 
 export default Commercials
+
+
+
+
+
+
+//  <figure className='item-wrapper-commercials'>
+//         <div className='gallery-item'>
+//           <img className='commercials'
+//           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/photosi.png" alt="photosi">
+//           </img>
+//         </div>
+//         <figcaption className='gallery-caption'>
+//            <div className='gallery-caption-wrapper'>
+//             <p>Photosi - Spot Web The Storytellers</p>
+//           </div>
+//         </figcaption>
+//       </figure>
+
+//        <figure className='item-wrapper-commercials'>
+//         <div className='gallery-item'>
+//           <img className='commercials'
+//           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/photosi2.png" alt="photosi">
+//           </img>
+//         </div>
+//         <figcaption className='gallery-caption'>
+//            <div className='gallery-caption-wrapper'>
+//             <p>Photosi - Spot Web The Storytellers</p>
+//           </div>
+//         </figcaption>
+//       </figure>

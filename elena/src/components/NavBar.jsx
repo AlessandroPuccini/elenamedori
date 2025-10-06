@@ -1,24 +1,30 @@
 import React, {useEffect, useState} from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 function NavBar() {
 
-  // const [isTrasparent, setIsTrasparent ] = useState (false)
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     setIsTrasparent(window.scrollY > 50)
-  //   }
-  //   window.addEventListener('scroll', handleScroll)
-  //   return ()=> window.removeEventListener('scroll', handleScroll)
-  // }, [])
+   const [menuOpen, setMenuOpen] = useState(false)
+   const location = useLocation()
+
+   useEffect(() => {
+    setMenuOpen(false)
+   }, [location.pathname])
 
   return (
     <nav className='sticky-navbar'>
       <div className='logo-name'>
         <Link to="/elenamedori/">
           <h1>ELENA MEDORI</h1>
-        </Link></div>
-        <div className='menu-items'>  
+        </Link>
+       </div>
+       <button
+        className="menu-toggle"
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Apri menu"
+      >
+        ☰
+      </button>
+        <div className={`menu-items${menuOpen ? ' open' : ''}`}> 
       <ul>
         <li><Link to='/me'>ME</Link></li>
         <li><Link to='/commercials'>COMMERCIALS</Link></li>

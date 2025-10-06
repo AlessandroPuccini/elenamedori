@@ -92,8 +92,11 @@ button:focus-visible {
   z-index: 100;
   background-color: #ffffff; /* colore iniziale */
 }
-
+.menu-toggle{
+  display: none;
+}
  .sticky-navbar a {
+  /* color: #f13824; */
   color: #f13824;
  }
  .sticky-navbar a:hover{
@@ -114,6 +117,7 @@ button:focus-visible {
 }
 .logo-name h1{
   padding-left: 0.7em;
+  /* color: #f13824; */
   color: #f13824;
 
 }
@@ -149,9 +153,36 @@ button:focus-visible {
   flex-shrink: 0;       /* le immagini non si restringono */
 }
 
-/* Esempio per immagini di dimensioni diverse */
-/* .gallery-img.img-small { height: 40vh; }
-.gallery-img.img-large { height: 80vh; } */
+@media (max-width: 700px) {
+  .home-gallery-wrapper {
+    width: 100vw;
+    height: calc(100vh - 60px - 60px); /* sottrai altezza navbar e footer */
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    padding: 0;
+  }
+  .home-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0.5vw;
+    padding: 1vw 0;
+    height: auto;
+    overflow: visible;
+  }
+  .gallery-img {
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    object-fit: cover;
+    border-radius: 2px;
+    display: block;
+  }
+}
+
 
 /*******GALLEY-ITEMS*********/
 
@@ -339,8 +370,9 @@ padding: 0.5em 0.5em;
   display: flex;
   flex-direction: row;
   padding-left: 1em;
+  
 }
-h4{
+.contacts p{
   padding: 0 10px;
 }
 .copyright{
@@ -415,3 +447,54 @@ h4{
   font-style: normal;
   color: #f13824;
 } */
+
+/*************************MEDIA QUERY*****************/
+
+/******HAMBURGER MENU********/
+@media (max-width: 700px) {
+  .menu-toggle {
+    display: block;
+    font-size: 2em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .menu-items {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 1em;
+    background: #fff;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+    border-radius: 3px;
+    padding: 1em;
+    flex-direction: column;
+    z-index: 200;
+  }
+  .menu-items.open {
+    display: flex;
+  }
+  .menu-items ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+  }
+}
+/**********FOOTER**********/
+@media (max-width: 700px) {
+  footer {
+    font-size: 0.5em;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contacts p{
+    font-size: 0.8em;
+  }
+  .copyright{
+    padding-right: 0;
+  }
+
+}

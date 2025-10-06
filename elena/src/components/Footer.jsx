@@ -4,8 +4,9 @@ function Footer() {
   return (
     <div id='footer'>
       <div className='contacts'>
-      <h4>elenamedori.design@gmail.com</h4>
-      <h4>+393494708859</h4>
+      <p>elenamedori.design@gmail.com</p>
+ 
+      <p>+393494708859</p>
       </div>
       <div className='copyright'>
       <h6>© 2025 Elena Medori</h6>
