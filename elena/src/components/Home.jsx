@@ -7,10 +7,10 @@ function Home() {
         <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/apple.png" alt="cake" />
         <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/rosa.jpg" alt="bag" />
         <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/despar2.png" alt="despar"/>
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD4.jpg" alt="Interior" />
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/amadori2.png" alt="Amadori" />
         <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD1.png" alt="Interior" />
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/osp1.png" alt="L'ospite" />
+        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/amadori2.png" alt="Amadori" />
+        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD4.jpg" alt="Interior" />
+        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/donnasola3.png" alt="L'ospite" />
         <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/mym2.jpg" alt="stillife" />
         <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/mym.jpg" alt="adv mym" />
       </div>

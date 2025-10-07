@@ -13,7 +13,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @Donna sola - Short film</p>
+            <p>Production Designer Donna sola - Short film</p>
           </div>
         </figcaption>
       </figure> 
@@ -26,7 +26,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @Donna sola - Short film</p>
+            <p>Production Designer Donna sola - Short film</p>
           </div>
         </figcaption>
       </figure> 
@@ -39,7 +39,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @Donna sola - Short film</p>
+            <p>Production Designer Donna sola - Short film</p>
           </div>
         </figcaption>
       </figure> 
@@ -52,7 +52,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @Donna sola - Short film</p>
+            <p>Production Designer Donna sola - Short film</p>
           </div>
         </figcaption>
       </figure> 
@@ -65,7 +65,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>Set Decorator Scenic Art Supervisor @The Little Hours - Featurefilm</p>
+            <p>Set Decorator Scenic Art Supervisor The Little Hours - Featurefilm</p>
           </div>
         </figcaption>
       </figure> 
@@ -78,7 +78,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>Set Decorator Scenic Art Supervisor @The Little Hours - Featurefilm</p>
+            <p>Set Decorator Scenic Art Supervisor The Little Hours - Featurefilm</p>
           </div>
         </figcaption>
       </figure> 
@@ -91,7 +91,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @L'Ospite - Featurefilm</p>
+            <p>Production Designer L'Ospite - Featurefilm</p>
           </div>
         </figcaption>
       </figure>
@@ -104,7 +104,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @L'Ospite - Featurefilm</p>
+            <p>Production Designer L'Ospite - Featurefilm</p>
           </div>
         </figcaption>
       </figure>
@@ -117,7 +117,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @Magnolia - Shortfilm</p>
+            <p>Production Designer Magnolia - Shortfilm</p>
           </div>
         </figcaption>
       </figure>
@@ -130,7 +130,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @Magnolia - Shortfilm</p>
+            <p>Production Designer Magnolia - Shortfilm</p>
           </div>
         </figcaption>
       </figure>
@@ -143,7 +143,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @House of Evil - Featurefilm</p>
+            <p>Production Designer House of Evil - Featurefilm</p>
           </div>
         </figcaption>
       </figure> 
@@ -157,7 +157,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @House of Evil- Featurefilm</p>
+            <p>Production Designer House of Evil- Featurefilm</p>
           </div>
         </figcaption>
       </figure> 
@@ -170,7 +170,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @Dove noi non siamo - Short film</p>
+            <p>Production Designer Dove noi non siamo - Short film</p>
           </div>
         </figcaption>
       </figure> 
@@ -183,7 +183,7 @@ function Film() {
         </div>
         <figcaption className='gallery-caption'>
           <div className='gallery-caption-wrapper'>
-            <p>productiondesigner @Dove noi non siamo - Short film</p>
+            <p>Production Designer Dove noi non siamo - Short film</p>
           </div>
         </figcaption>
       </figure> 

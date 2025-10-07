@@ -5,7 +5,6 @@ function Footer() {
     <div id='footer'>
       <div className='contacts'>
       <p>elenamedori.design@gmail.com</p>
- 
       <p>+393494708859</p>
       </div>
       <div className='copyright'>

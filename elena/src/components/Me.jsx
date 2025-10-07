@@ -22,14 +22,11 @@ I love art in all its forms and beautiful stories. I love colours, sunrise and s
 <br></br>
 </p>
 </div>
-   <div className='me-caption-footer'>
-      <p>This month's movie selection fall on Her, by Spike Jonze. Besides the screenplay (which i've loved) and the astonishing acting performance by Joaquin Phoenix, the colours takes a huge role in the movie, as for it was treated as a protagonist itself, no only underlining the mood of the main actor but reflecting the viewer emotions. Higly recommended!</p>
-   </div>
   </div>
-  <div className='me-image'>
+  {/* <div className='me-image'>
     <img className='her-image' src="https://res.cloudinary.com/dmxjn7rsc/image/upload/docs/Her.png" alt="her" />
     <div className='me-image-caption'>*HER by Spike Jonze - 2013</div>
-  </div>
+  </div> */}
 
 </div> 
   )

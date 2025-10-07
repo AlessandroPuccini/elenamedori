@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 
 function NavBar() {
 
+   const [scrolled, setScrolled] = useState(false)
    const [menuOpen, setMenuOpen] = useState(false)
    const location = useLocation()
 
@@ -10,8 +11,17 @@ function NavBar() {
     setMenuOpen(false)
    }, [location.pathname])
 
+    useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10)
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+
   return (
-    <nav className='sticky-navbar'>
+    <nav className={`sticky-navbar${scrolled ? ' scrolled' : ''}`}>
       <div className='logo-name'>
         <Link to="/elenamedori/">
           <h1>ELENA MEDORI</h1>
@@ -26,10 +36,10 @@ function NavBar() {
       </button>
         <div className={`menu-items${menuOpen ? ' open' : ''}`}> 
       <ul>
-        <li><Link to='/me'>ME</Link></li>
-        <li><Link to='/commercials'>COMMERCIALS</Link></li>
-        <li><Link to='/film'>FILM</Link></li>
-        <li><Link to='/stills'>STILLS</Link></li>
+        <li><Link to='/me'>Me</Link></li>
+        <li><Link to='/commercials'>Commercials</Link></li>
+        <li><Link to='/film'>Film</Link></li>
+        <li><Link to='/stills'>Stills</Link></li>
       </ul>
       </div>
     </nav>
