@@ -30,10 +30,10 @@ function NavBar() {
       </button>
         <div className={`menu-items${menuOpen ? ' open' : ''}`}> 
       <ul>
-        <li><Link to='/me'>Me</Link></li>
         <li><Link to='/commercials'>Commercials</Link></li>
         <li><Link to='/film'>Film</Link></li>
         <li><Link to='/stills'>Stills</Link></li>
+        <li><Link to='/me'>Me</Link></li>
       </ul>
       </div>
     </nav>
