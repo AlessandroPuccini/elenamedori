@@ -194,7 +194,7 @@ ul{
 column-count: 3;
 column-gap: 1vw;
 width: 100vw;
-padding: 1vw;
+padding: 10px;
 }
 .item-wrapper-stills{
 display: inline-block;     /* Importante per columns! */
@@ -319,12 +319,13 @@ padding: 0.5em 0.5em;
 @media (max-width: 700px) {
   .menu-toggle {
     display: block;
-    font-size: 2em;
+    font-size: 1.5em;
     background: none;
     border: none;
     cursor: pointer;
     margin-left: auto;
     color: #f13824;
+    padding-right: 10px;
   }
   .menu-items {
     position: absolute;
@@ -354,14 +355,18 @@ padding: 0.5em 0.5em;
     padding: 0;
   }
 }
+
+.sticky-navbar{
+  top: 5px;
+}
 /**********LOGO NAME**********/
 @media (max-width: 700px) {
  .logo-name{
-  padding-left: 0;
+  padding-left: 20px;
  }
  .logo-mobile {
     display: inline;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 400;
     padding-left: 5px;
     color: #f13824;
@@ -371,12 +376,19 @@ padding: 0.5em 0.5em;
   }
 }
 
+/**********HOME PAGE***********/
+@media (max-width:700px){
+  .home-gallery {
+    height: 77vh;
+  }
+}
+
 /**********COMMERCIALS PAGE***********/
 @media (max-width: 700px) {
   .gallery-commercials-wrapper {
     column-count: 1 !important;   /* una sola colonna */
     width: 100vw;
-    padding: 0;
+    padding-top: 20px;
   }
   .item-wrapper-commercials {
     width: 100vw;
@@ -410,7 +422,7 @@ padding: 0.5em 0.5em;
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    padding: 0;
+    padding-top: 20px;
     gap: 0;
   }
   .item-wrapper {
@@ -439,26 +451,31 @@ padding: 0.5em 0.5em;
   .gallery-stills-wrapper {
     column-count: 1 !important;   /* una sola colonna */
     width: 100vw;
-    padding: 0;
+    padding-top: 20px;
+    overflow-x: hidden;
   }
   .item-wrapper-stills {
-    width: 100vw;
+    width: 100%;
     margin: 0 0 2vw 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
     background: none;
     box-shadow: none;
     border-radius: 0;
     break-inside: avoid;
   }
   .rosa {
-    width: 100vw;
+    width: 100%;
     height: auto;                /* oppure usa 60vh se preferisci */
     /* max-height: 70vh; */
     object-fit: cover;
     display: block;
     border-radius: 0;
+    border: 20px solid #D9DAD4;
+    box-sizing: border-box;
+    max-width: 100vw;
   }
 }
 
