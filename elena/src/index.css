@@ -176,6 +176,18 @@ ul{
   display: block;
 }
 
+.movies-intro{
+  width: 100%;
+  margin: 0 auto 1em auto;
+  padding: 1em 1.5vw;
+  text-align: left;
+  color: #f13824;
+}
+.movies-intro p {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
 
 
 /******GALLERY CAPTION WRAPPER******/
@@ -212,16 +224,17 @@ display: inline-block;     /* Importante per columns! */
 }
 
 /**************COMMERCIALS PAGE ***********/
-.gallery-commercials-wrapper {
-  column-count: 2;           /* Numero di colonne su desktop */
-  column-gap: 1vw;           /* Spazio tra le colonne */
+/***************VECCHIO CSS PER COMMERCIALS PAGE***************/
+/* .gallery-commercials-wrapper {
+  column-count: 2;          
+  column-gap: 1vw;          
   width: 100vw;
   padding: 1vw;
 }
 .item-wrapper-commercials {
-  display: inline-block;     /* Importante per columns! */
+  display: inline-block;    
   width: 100%;
-  margin: 0 0 1vw 0;        /* Spazio verticale tra le immagini */
+  margin: 0 0 1vw 0;        
   background: none;
   box-shadow: none;
   border-radius: 12px;
@@ -232,7 +245,57 @@ display: inline-block;     /* Importante per columns! */
   height: auto;
   display: block;
   object-fit: cover;
+} */
+
+
+.gallery-commercials-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1vw;
+  width: 100vw;
+  padding: 1vw;
+  box-sizing: border-box;
 }
+
+.item-wrapper-commercials {
+  flex: 1 1 45vw;
+  max-width: 48vw;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+  box-shadow: none;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 180px;
+  box-sizing: border-box;
+}
+
+.commercials{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.commercials-intro {
+  width: 100%;
+
+  margin: 0 auto 1em auto;
+  padding: 1em .5vw;
+  text-align: left;
+  color: #f13824;
+}
+.commercials-intro p {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+
+
+
 /**************ME PAGE ***********/
 
 .main-me-wrapper{
@@ -382,12 +445,16 @@ padding: 0.5em 0.5em;
 /**********COMMERCIALS PAGE***********/
 @media (max-width: 700px) {
   .gallery-commercials-wrapper {
-    column-count: 1 !important;   /* una sola colonna */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
     padding-top: 20px;
+    gap: 0;
   }
   .item-wrapper-commercials {
     width: 100vw;
+    max-width: 100vw;
     margin: 0 0 2vw 0;
     display: flex;
     flex-direction: column;
@@ -395,7 +462,7 @@ padding: 0.5em 0.5em;
     background: none;
     box-shadow: none;
     border-radius: 0;
-    break-inside: avoid;
+    box-sizing: border-box;
   }
   .commercials {
     width: 100vw;
@@ -404,11 +471,20 @@ padding: 0.5em 0.5em;
     object-fit: cover;
     display: block;
     border-radius: 0;
+    box-sizing: border-box;
+    border: 20px solid #D9DAD4;
+    max-width: 100vw;
   }
-  .gallery-caption {
-    font-size: 0.7em;
-    margin-top: 0.3em;
+  .commercials-intro {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 0;
     text-align: center;
+    color: #f13824;
+  }
+  .commercials-intro p {
+    font-size: 0.7em;
+    line-height: 1.5;
   }
 }
 
@@ -439,8 +515,28 @@ padding: 0.5em 0.5em;
     object-fit: cover;
     display: block;
     border-radius: 0;
+    box-sizing: border-box;
+    border: 20px solid #D9DAD4;
+    max-width: 100vw;
   }
+  .movies-intro {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  text-align: center;
+  color: #f13824;
+
+}
+.movies-intro p {
+  font-size: 0.7em;
+  line-height: 1.5;
+}
+.special{
+padding: 10px;
+}
 } 
+
+
 
 /********STILLS PAGE*********/
 @media (max-width: 700px) {
