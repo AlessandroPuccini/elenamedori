@@ -42,12 +42,6 @@ ul{
 }
 
 
-h1 {
-  font-size: 1.6em;
-  line-height: 1.2em;
-}
-
-
 /********NAVBAR**********/
 .sticky-navbar {
   display: flex;
@@ -58,19 +52,12 @@ h1 {
   width: 100%;
   z-index: 100;
   background-color: #D9DAD4;
-  /* background: transparent;
-  transition: background 0.3s; */
-
 }
 
-/* .sticky-navbar.scrolled {
-  background: rgba(255,255,255,0.85); 
-  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
-  backdrop-filter: blur(4px);
-} */
 
 .menu-toggle{
   display: none;
+
 }
  .sticky-navbar a {
   color: #f13824;
@@ -98,13 +85,21 @@ h1 {
 .menu-items li{
   display: inline-block;
   padding: 0.7em;
-
+}
+.logo-mobile {
+  display: none;
+}
+.logo-desktop {
+  display: inline;
+  font-weight: 400;
 }
 
-.logo-name h1{
-  padding-left: 0.7em;
+.logo-name{
+  padding-left: 20px;
   color: #f13824;
-
+  font-size: 1.6em;
+  line-height: 1.2em;
+  font-family: "Cairo", sans-serif;
 }
 
   /************MAIN CONTENT**********/  
@@ -126,7 +121,7 @@ h1 {
   display: flex;
   flex-direction: row;
   gap: 0.6vw;
-  height: 80vh; /* puoi regolare l'altezza della galleria */
+  height: 82vh; /* puoi regolare l'altezza della galleria */
   padding-bottom: 0;
 }
 
@@ -257,6 +252,7 @@ display: inline-block;     /* Importante per columns! */
 }
 .me-caption-title {
   font-size: 1.3em;
+  font-weight: 400;
   color: #f13824;
   text-align: left;
   padding: 1em;
@@ -298,7 +294,8 @@ margin-top: auto;
 display: flex;
 justify-content: space-between;
 color: #f13824;
-font-family: Arial, Helvetica, sans-serif;
+font-family: "Cairo", sans-serif;
+font-weight: 400;
 padding: 0.5em 0.5em;
 }
 .contacts{
@@ -359,10 +356,19 @@ padding: 0.5em 0.5em;
 }
 /**********LOGO NAME**********/
 @media (max-width: 700px) {
-  .logo-name h1 {
-    /* font-size: 1.6em; */
-    
-}
+ .logo-name{
+  padding-left: 0;
+ }
+ .logo-mobile {
+    display: inline;
+    font-size: 1em;
+    font-weight: 400;
+    padding-left: 5px;
+    color: #f13824;
+  }
+  .logo-desktop {
+    display: none;
+  }
 }
 
 /**********COMMERCIALS PAGE***********/
@@ -456,10 +462,35 @@ padding: 0.5em 0.5em;
   }
 }
 
+/**********ME PAGE**********/
+@media (max-width: 700px) {
+  .me-caption-main{
+    font-size: 0.9em;
+    width: 100%;
+    text-align: left;
+    padding: 0.5em;
+  }
+  .me-caption-title{
+    font-size: 0.9em;
+    width: 100%;
+    text-align: left;
+    padding: 0.5em;
+  }
+  .me-text-wrapper{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90vw;
+  }
+}
+
+
+
 /**********FOOTER**********/
 @media (max-width: 700px) {
   #footer {
-    font-size: 1em;
+    flex-direction: column;
+    font-size: 0.8em;
     align-items: center;
     justify-content: left;
     padding: 0.2em;
