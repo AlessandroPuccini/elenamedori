@@ -82,6 +82,13 @@ function Commercials() {
           </img>
         </div>
       </figure>
+      <figure className='item-wrapper-commercials'>
+        <div className='gallery-item'>
+          <img className='commercials'
+          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/arredissima2.png" alt="arredissima">
+          </img>
+        </div>
+      </figure>
         
         <div className="commercials-intro">
         <p>Photosi Spot Web - The Storytellers</p>
