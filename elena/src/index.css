@@ -313,7 +313,7 @@ display: inline-block;     /* Importante per columns! */
   max-width: 80vw;
 }
 .me-caption-title {
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: 400;
   color: #f13824;
   text-align: left;
@@ -321,7 +321,7 @@ display: inline-block;     /* Importante per columns! */
   width: 50%;
 }
 .me-caption-main{
-  font-size: 1.3em;
+  font-size: 1.1em;
   color: #f13824;
   width: 50%;
   text-align: left;

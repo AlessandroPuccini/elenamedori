@@ -6,8 +6,9 @@ function Commercials() {
    
     <div className='gallery-commercials-wrapper'>
        <div className="commercials-intro">
-        <p>Amadori Ricette pronte - Undervilla Productions </p>
-        <p>Food Stylist: Benedetta Bruni</p>
+        <p>Amadori Ricette pronte - Undervilla Productions <br></br>
+          Food Stylist: Benedetta Bruni 
+          </p>
       </div>
       <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
