@@ -20,10 +20,10 @@ function Stills() {
         </div>
       </figure>
 
-      <figure className='item-wrapper-stills'>
+    <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/rosa2.jpg" alt="pinkbag">
+           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/lanciotti.jpg" alt="Lanciotti shoes">
           </img>
         </div>
       </figure>
@@ -43,11 +43,11 @@ function Stills() {
           </img>
         </div>
       </figure>
-      
+
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/lanciotti.jpg" alt="Lanciotti shoes">
+           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/rosa2.jpg" alt="pinkbag">
           </img>
         </div>
       </figure>
@@ -55,7 +55,7 @@ function Stills() {
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD2.png" alt="Interior Design_Lucca'sResidence">
+           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD1.png" alt="Interior Design_Lucca'sResidence">
           </img>
         </div>
       </figure>
@@ -63,7 +63,7 @@ function Stills() {
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/tavola.jpg" alt="Tavola">
+           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/uovo.jpg" alt="Tavola">
           </img>
         </div>
       </figure>
