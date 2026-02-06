@@ -4,8 +4,8 @@ function Home() {
   return (
        <div className="home-gallery-wrapper">
       <div className="home-gallery">
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/apple.png" alt="cake" />
         <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/rosa.jpg" alt="bag" />
+        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/apple.png" alt="cake" />
         <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/despar2.png" alt="despar"/>
         <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD1.png" alt="Interior" />
         <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/amadori2.png" alt="Amadori" />
