@@ -63,15 +63,15 @@ function Stills() {
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/uovo.jpg" alt="Tavola">
+           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD6.jpg" alt="Cucina">
           </img>
         </div>
       </figure>
 
-      <figure className='item-wrapper-stills'>
+        <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/mym.jpg" alt="Art Direction_MyM">
+           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/uovo.jpg" alt="Tavola">
           </img>
         </div>
       </figure>
@@ -91,6 +91,24 @@ function Stills() {
           </img>
         </div>
       </figure>
+
+        <figure className='item-wrapper-stills'>
+        <div className='gallery-item'>
+          <img className='rosa' 
+           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/mym.jpg" alt="Art Direction_MyM">
+          </img>
+        </div>
+      </figure>
+
+       <figure className='item-wrapper-stills'>
+        <div className='gallery-item'>
+          <img className='rosa' 
+           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD7.jpg" alt="Bedroom">
+          </img>
+        </div>
+      </figure>
+
+    
 
     </div>
     </>

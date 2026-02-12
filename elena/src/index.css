@@ -204,7 +204,7 @@ ul{
 .gallery-stills-wrapper {
 column-count: 3;
 column-gap: 7vw;
-width: calc(100vw -140px);
+  width: calc(100vw - 140px);
 padding-top: 70px;
 margin: 0 70px;   /* margine ai bordi destro e sinistro della galleria */
 }
@@ -313,7 +313,7 @@ display: inline-block;     /* Importante per columns! */
   justify-content: center;
   max-width: 80vw;
 }
-.me-caption-title {
+/* .me-caption-title {
   font-size: 1.1em;
   font-weight: 400;
   color: #f13824;
@@ -327,7 +327,13 @@ display: inline-block;     /* Importante per columns! */
   width: 50%;
   text-align: left;
   padding: 1em;
-}
+} */
+ .me-full{
+  font-size: 1.1em;
+  color: #f13824;
+  text-align: left;
+  padding: 1em;
+ }
 
 
 .me-caption-footer{
@@ -586,7 +592,7 @@ padding: 10px;
 
 /**********ME PAGE**********/
 @media (max-width: 700px) {
-  .me-caption-main{
+  /* .me-caption-main{
     font-size: 0.9em;
     width: 100%;
     text-align: left;
@@ -597,7 +603,14 @@ padding: 10px;
     width: 100%;
     text-align: left;
     padding: 0.5em;
+  } */
+   .me-full{
+    font-size: 0.9em;
+    width: 100%;
+    text-align: justify;
+    padding: 0.5em;
   }
+
   .me-text-wrapper{
     flex-direction: column;
     align-items: center;
