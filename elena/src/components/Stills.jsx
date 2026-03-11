@@ -7,7 +7,7 @@ function Stills() {
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/rosa.jpg" alt="pinkbag">
+           src="https://ik.imagekit.io/ae2125/elenamedori/rosa.jpg" alt="pinkbag">
           </img>
         </div>
       </figure>
@@ -15,7 +15,7 @@ function Stills() {
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/apple.png" alt="apple">
+           src="https://ik.imagekit.io/ae2125/elenamedori/apple.png" alt="apple">
           </img>
         </div>
       </figure>
@@ -23,7 +23,7 @@ function Stills() {
     <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/lanciotti.jpg" alt="Lanciotti shoes">
+           src="https://ik.imagekit.io/ae2125/elenamedori/Lanciotti.png" alt="Lanciotti shoes">
           </img>
         </div>
       </figure>
@@ -31,7 +31,7 @@ function Stills() {
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD5.jpg" alt="Interior Design_Lucca'sResidence">
+           src="https://ik.imagekit.io/ae2125/elenamedori/InteriorD5.jpg" alt="Interior Design_Lucca'sResidence">
           </img>
         </div>
       </figure>
@@ -39,7 +39,7 @@ function Stills() {
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD4.png" alt="Interior Design_Lucca'sResidence">
+           src="https://ik.imagekit.io/ae2125/elenamedori/interiorD4.png" alt="Interior Design_Lucca'sResidence">
           </img>
         </div>
       </figure>
@@ -47,7 +47,7 @@ function Stills() {
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/rosa2.jpg" alt="pinkbag">
+           src="https://ik.imagekit.io/ae2125/elenamedori/rosa2.jpg" alt="pinkbag">
           </img>
         </div>
       </figure>
@@ -55,7 +55,7 @@ function Stills() {
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD1.png" alt="Interior Design_Lucca'sResidence">
+           src="https://ik.imagekit.io/ae2125/elenamedori/InteriorD1.jpg" alt="Interior Design_Lucca'sResidence">
           </img>
         </div>
       </figure>
@@ -63,7 +63,7 @@ function Stills() {
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD6.jpg" alt="Cucina">
+           src="https://ik.imagekit.io/ae2125/elenamedori/InteriorD3.jpg" alt="Cucina">
           </img>
         </div>
       </figure>
@@ -71,7 +71,7 @@ function Stills() {
         <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/uovo.jpg" alt="Tavola">
+           src="https://ik.imagekit.io/ae2125/elenamedori/uovo.jpeg" alt="Tavola">
           </img>
         </div>
       </figure>
@@ -79,7 +79,7 @@ function Stills() {
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD3.jpg" alt="Interior Design_Lucca'sResidence">
+           src="https://ik.imagekit.io/ae2125/elenamedori/interiorD2.png" alt="Interior Design_Lucca'sResidence">
           </img>
         </div>
       </figure>
@@ -87,7 +87,7 @@ function Stills() {
       <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/lanciotti2.jpg" alt="Lanciotti Shoes">
+           src="https://ik.imagekit.io/ae2125/elenamedori/Lanciotti2.jpg" alt="Lanciotti Shoes">
           </img>
         </div>
       </figure>
@@ -95,7 +95,7 @@ function Stills() {
         <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/mym.jpg" alt="Art Direction_MyM">
+           src="https://ik.imagekit.io/ae2125/elenamedori/mym.jpg" alt="Art Direction_MyM">
           </img>
         </div>
       </figure>
@@ -103,7 +103,7 @@ function Stills() {
        <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD7.jpg" alt="Bedroom">
+           src="https://ik.imagekit.io/ae2125/elenamedori/interiorD7.jpg" alt="Bedroom">
           </img>
         </div>
       </figure>

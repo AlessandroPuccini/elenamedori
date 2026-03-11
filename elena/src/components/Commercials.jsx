@@ -13,7 +13,7 @@ function Commercials() {
       <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials' 
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/amadori1.png" alt="amadori">
+          src="https://ik.imagekit.io/ae2125/elenamedori/commercials/amadori1.png" alt="amadori">
           </img>
         </div>
       </figure>
@@ -21,7 +21,7 @@ function Commercials() {
       <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/amadori2.png" alt="amadori">
+          src="https://ik.imagekit.io/ae2125/elenamedori/commercials/amadori2.png" alt="amadori">
           </img>
         </div>
       </figure>
@@ -31,7 +31,7 @@ function Commercials() {
          <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/despar1.png" alt="despar">
+          src="https://ik.imagekit.io/ae2125/elenamedori/commercials/despar1.png" alt="despar">
           </img>
         </div>
       </figure>
@@ -39,7 +39,7 @@ function Commercials() {
           <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/despar2.png" alt="despar">
+          src="https://ik.imagekit.io/ae2125/elenamedori/commercials/despar2.png" alt="despar">
           </img>
         </div>
       </figure>
@@ -50,7 +50,7 @@ function Commercials() {
         <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/biorepair3.png" alt="biorepair">
+          src="https://ik.imagekit.io/ae2125/elenamedori/commercials/biorepair3.png" alt="biorepair">
           </img>
         </div>
       </figure>
@@ -59,7 +59,7 @@ function Commercials() {
       <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/biorepair2.png" alt="biorepair">
+          src="https://ik.imagekit.io/ae2125/elenamedori/commercials/biorepair2.png" alt="biorepair">
           </img>
         </div>
       </figure>
@@ -67,7 +67,7 @@ function Commercials() {
        <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/biorepair1.png" alt="biorepair">
+          src="https://ik.imagekit.io/ae2125/elenamedori/commercials/biorepair1.png" alt="biorepair">
           </img>
         </div>
       </figure>
@@ -78,14 +78,14 @@ function Commercials() {
          <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/arredissima.jpg" alt="arredissima">
+          src="https://ik.imagekit.io/ae2125/elenamedori/commercials/arredissima.jpg" alt="arredissima">
           </img>
         </div>
       </figure>
       <figure className='item-wrapper-commercials'>
         <div className='gallery-item'>
           <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/arredissima2.png" alt="arredissima">
+          src="https://ik.imagekit.io/ae2125/elenamedori/commercials/arredissima2.png" alt="arredissima">
           </img>
         </div>
       </figure>
@@ -96,7 +96,7 @@ function Commercials() {
         <figure className='item-wrapper-commercials'>
          <div className='gallery-item'>
         <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/photosi.png" alt="photosi">
+          src="https://ik.imagekit.io/ae2125/elenamedori/commercials/photosi.png" alt="photosi">
           </img>
         </div>
       </figure>
@@ -104,7 +104,7 @@ function Commercials() {
           <figure className='item-wrapper-commercials'>
          <div className='gallery-item'>
            <img className='commercials'
-          src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/photosi2.png" alt="photosi">
+          src="https://ik.imagekit.io/ae2125/elenamedori/commercials/photosi2.png" alt="photosi">
           </img>
         </div>
       </figure>

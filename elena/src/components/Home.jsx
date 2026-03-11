@@ -4,15 +4,15 @@ function Home() {
   return (
        <div className="home-gallery-wrapper">
       <div className="home-gallery">
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/rosa.jpg" alt="bag" />
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/apple.png" alt="cake" />
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/despar2.png" alt="despar"/>
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD1.png" alt="Interior" />
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/commercials/amadori2.png" alt="Amadori" />
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/interiorD4.jpg" alt="Interior" />
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/donnasola3.png" alt="L'ospite" />
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/mym2.jpg" alt="stillife" />
-        <img className="gallery-img" src="https://res.cloudinary.com/dmxjn7rsc/image/upload/stills/mym.jpg" alt="adv mym" />
+        <img className="gallery-img" src="https://ik.imagekit.io/ae2125/elenamedori/rosa.jpg" alt="bag" />
+        <img className="gallery-img" src="https://ik.imagekit.io/ae2125/elenamedori/apple.png" alt="cake" />
+        <img className="gallery-img" src="https://ik.imagekit.io/ae2125/elenamedori/despar2.png" alt="despar"/>
+        <img className="gallery-img" src="https://ik.imagekit.io/ae2125/elenamedori/InteriorD1.jpg" alt="Interior" />
+        <img className="gallery-img" src="https://ik.imagekit.io/ae2125/elenamedori/amadori2.png" alt="Amadori" />
+        <img className="gallery-img" src="https://ik.imagekit.io/ae2125/elenamedori/interiorD4.jpg" alt="Interior" />
+        <img className="gallery-img" src="https://ik.imagekit.io/ae2125/elenamedori/donnasola3.png" alt="L'ospite" />
+        <img className="gallery-img" src="https://ik.imagekit.io/ae2125/elenamedori/mym2.jpg" alt="stillife" />
+        <img className="gallery-img" src="https://ik.imagekit.io/ae2125/elenamedori/mym.jpg" alt="adv mym" />
       </div>
     </div>
   )

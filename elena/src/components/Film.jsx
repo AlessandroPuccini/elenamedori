@@ -10,7 +10,7 @@ function Film() {
       <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/donnasola3.png" alt="donna sola">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/DonnaSola3.png" alt="donna sola">
           </img>
         </div>
       </figure> 
@@ -18,7 +18,7 @@ function Film() {
         <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/donnasola.png" alt="donna sola">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/DonnaSola.png" alt="donna sola">
           </img>
         </div>
       </figure> 
@@ -26,7 +26,7 @@ function Film() {
         <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/donnasola2.png" alt="donna sola">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/DonnaSola2.png" alt="donna sola">
           </img>
         </div>
       </figure> 
@@ -34,7 +34,7 @@ function Film() {
         <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/donnasola1.png" alt="donna sola">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/DonnaSola1.png" alt="donna sola">
           </img>
         </div>
       </figure> 
@@ -46,7 +46,7 @@ function Film() {
       <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/tlh2.png" alt="the little hours">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/tlh2.png" alt="the little hours">
           </img>
         </div>
       </figure> 
@@ -54,7 +54,7 @@ function Film() {
       <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/tlh3.png" alt="the little hours">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/tlh3.png" alt="the little hours">
           </img>
         </div>
       </figure> 
@@ -65,7 +65,7 @@ function Film() {
       <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/osp1.png" alt="L'OSPITE">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/osp1.png" alt="L'OSPITE">
           </img>
         </div>
       </figure>
@@ -73,7 +73,7 @@ function Film() {
       <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/osp3.png" alt="L'OSPITE">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/osp3.png" alt="L'OSPITE">
           </img>
         </div>
       </figure>
@@ -85,7 +85,7 @@ function Film() {
       <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/mg2.png" alt="magnolia">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/mg2.png" alt="magnolia">
           </img>
         </div>
       </figure>
@@ -93,7 +93,7 @@ function Film() {
       <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/mg1.png" alt="magnolia">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/mg1.png" alt="magnolia">
           </img>
         </div>
       </figure>
@@ -104,7 +104,7 @@ function Film() {
        <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/hoe1.png" alt="House of evil">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/hoe1.png" alt="House of evil">
           </img>
         </div>
       </figure> 
@@ -112,7 +112,7 @@ function Film() {
       <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/hoe2.png" alt="House of evil">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/hoe2.png" alt="House of evil">
           </img>
         </div>
       </figure> 
@@ -123,7 +123,7 @@ function Film() {
       <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/dnns.png" alt="Dove noi non siamo">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/dnns.png" alt="Dove noi non siamo">
           </img>
         </div>
       </figure> 
@@ -131,7 +131,7 @@ function Film() {
        <figure className='item-wrapper'>
         <div className='gallery-item'>
           <img className='osp' 
-           src="https://res.cloudinary.com/dmxjn7rsc/image/upload/movies/dnns1.png" alt="Dove noi non siamo">
+           src="https://ik.imagekit.io/ae2125/elenamedori/film/dnns1.png" alt="Dove noi non siamo">
           </img>
         </div>
       </figure> 
