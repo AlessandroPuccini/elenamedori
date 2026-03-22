@@ -100,13 +100,13 @@ function Stills() {
         </div>
       </figure>
 
-       <figure className='item-wrapper-stills'>
+       {/* <figure className='item-wrapper-stills'>
         <div className='gallery-item'>
           <img className='rosa' 
            src="https://ik.imagekit.io/ae2125/elenamedori/interiorD7.jpg" alt="Bedroom">
           </img>
         </div>
-      </figure>
+      </figure> */}
 
     
 
